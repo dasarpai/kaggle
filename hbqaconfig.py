@@ -1,3 +1,4 @@
+# %% [code]
 
 import configparser
 config = configparser.ConfigParser()
@@ -50,7 +51,7 @@ def setEnv(env):
             "AGS_FOLDER" : "",
             "REPORT_FOLDER" :  "",
             "CORPUS_SECTIONS_FOLDER" :  "",
-            "CORPUS_CHAPTER_FOLDER" :  ""
+            "CORPUS_CHAPTER_FOLDER" :  "",
         }
     return conf
 
